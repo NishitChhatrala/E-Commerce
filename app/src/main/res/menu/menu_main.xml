@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".AnagramsActivity"
+
+    >
+    <item android:id="@+id/action_Account"
+
+        android:title="Account"
+        android:icon="@drawable/ic_account_circle_24dp"
+        android:orderInCategory="100"  />
+
+
+    <item android:id="@+id/action_orders"
+        android:title="Your_Orders"
+        android:icon="@drawable/ic_shopping_cart_24dp"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_Wish_list"
+        android:title="Wish List"
+        android:icon="@drawable/ic_favorite_24dp"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+
+
+    <item android:id="@+id/action_RateUs"
+        android:title="Rate_Us"
+        android:icon="@drawable/ic_grade_24dp"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/action_login"
+
+        android:title="login"
+        android:icon="@drawable/ic_account_circle_24dp"
+        android:orderInCategory="100"  />
+
+    <item android:id="@+id/action_SignOut"
+        android:title="Sign_Out"
+        android:icon="@drawable/ic_input_24dp"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+</menu>
+
